@@ -46,7 +46,15 @@ regression - 상관관계 비교
 
 차원 축소 - f(x)를 쉽게 구하기 위해서 
 
-pca - 차원을 줄이기 위해서 주 성분을 요약
+pca - 차원을 줄이기 위해서 주 성분을 요약( Principal component analysis )
+
+전복 데이터 ring 에서 분류에서는 레이블을 연속적으로 봐꿔줘야함 ( 순서 맵핑) -> One hot encoding -> gpt 한테 물어 봐라 !!! 
+labelEncoder  사용
+밸류 카운트 해서 갯수 확인 -> 엔코딩 -> 다시 카운트 
+머신 러닝 분류, 회귀 딥러닝 분류, 회귀
+
+
+
 
 
 
