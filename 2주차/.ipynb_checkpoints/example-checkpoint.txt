@@ -32,8 +32,32 @@ f1-score   : 정밀도와 재현율의 조화 평균(Harmonic Mean) - 데이터�
 support    : 실제 샘플의 개수
 p - 153 참고
 
+경사 하강법 -기울기를 구하는 과정
+
+로지스틱 회귀 - weight, bias 구하는 과정 
+svm  - super vector machine - 경계선에서 멀리 만드는 것
+decision tree - 20고개 , 불순도? - 불순도를 높이도록 만드는 것 
+ramdom forest - 여러개의 decision tree 가 모인 것 
+앙상블 - 이런거 저런거 섞어 쓰는 것 (모델을 섞어 쓰는 것) 
+
+regression - 상관관계 비교 
+
+스태킹 - 블랜딩? - 원두 섞기 합치기
+
+차원 축소 - f(x)를 쉽게 구하기 위해서 
+
+pca - 차원을 줄이기 위해서 주 성분을 요약( Principal component analysis )
+
+전복 데이터 ring 에서 분류에서는 레이블을 연속적으로 봐꿔줘야함 ( 순서 맵핑) -> One hot encoding -> gpt 한테 물어 봐라 !!! 
+labelEncoder  사용
+밸류 카운트 해서 갯수 확인 -> 엔코딩 -> 다시 카운트 
+머신 러닝 분류, 회귀 딥러닝 분류, 회귀
+
+범주형 데이터 - 분류에서 사용 ( 원 - 핫 인코딩 필요, 레이블 엔코딩 필요 )  
+연속적 데이터 - 회귀에서 사용 ( 원- 핫 인코딩 필요없음 , 엔코딩 필요없음)
 
 
 
-                
+
+
 
